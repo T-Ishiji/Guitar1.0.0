@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord",
+    "version": "1.0.0",
+    "description": "Guitar chord extension for BBC micro:bit V2. Deep strum zones are ~30 ADC counts at each end. After returning to center once, the next tilt in either direction mutes the sound.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
